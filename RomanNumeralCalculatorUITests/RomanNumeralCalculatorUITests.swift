@@ -48,7 +48,7 @@ class RomanNumeralCalculatorUITests: XCTestCase {
         //tab "x"
         app.buttons["X"].tap()
         // result must be XV
-        XCTAssertEqual(resultLabel.label, "XX")
+        XCTAssertEqual(resultLabel.label, "XV")
         
         
     }
