@@ -25,7 +25,7 @@ class RomanNumeralCalculatorTests: XCTestCase {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
         
-        XCTAssertEqual(toRoman(3), "III")
+        XCTAssertEqual(toRoman(1000), "N")
         XCTAssertEqual(toRoman(13), "XIII")
         XCTAssertEqual(toRoman(5), "V")
     }
